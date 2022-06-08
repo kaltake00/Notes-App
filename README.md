@@ -1,11 +1,11 @@
-# Introduction
+## Introduction
 Hello Everyone. I want to present you my project that I worked on. More precisely, it is a Notes application.
 The app is full-stack which means it consists of front-end and back-end parts.
 
-# Technologies
+## Technologies
 Frontend part I worked in using React.js and backend in Node.js using Express.js framework and MySQL as a database.
 
-### Instructions for installing the application 
+# Instructions for installing the application 
 To install this application on your computer, you must first have MySQL Workbench ready on your computer, and you need to create a notes database and import the `notes_db.sql` file.
 
 After that we need to clone this repository, and when you have finished it you need to navigate to the 'frontend' directory and run the `npm install` command to install all the third-party libraries necessary for the functionality of this application.
