@@ -1,0 +1,28 @@
+.pagination-wrapper{
+    width: 100%;
+}
+.pagination-wrapper ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    padding: 25px;
+    background-color: #cecece;
+    max-width: 200px;
+    margin: auto;
+    border-radius: 12px;
+    margin-bottom: 75px
+}
+
+.pagination-wrapper .page-item{
+    padding: 7px;
+    background-color: #fff;
+    margin-left: 8px;
+    border-radius: 9px;
+}
+.pagination-wrapper .page-item a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000
+}

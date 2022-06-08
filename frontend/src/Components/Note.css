@@ -1,0 +1,85 @@
+
+.notes-wrapper{
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    background-color: #cecece;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    border-radius: 10px;
+    padding: 30px
+}
+.note-card{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    background-color: #fff;
+    width: 95%;
+    border-radius: 7px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px
+}
+.note-card .actions-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.note-card svg{
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+/* Ovo deletat */
+.note-card svg:hover{
+    color: red;
+}
+.note-card svg.active{
+    color: red;
+}
+.note-card svg.active:hover{
+    color: grey;
+}
+.note-card .export_item-btn svg{
+    color: #000;
+}
+.note-card .export_item-btn svg:hover{
+    color: #000;
+}
+.note-card .main-wrapper{
+    flex-grow: 1;
+    padding-left: 45px;
+}
+.note-card .main-wrapper .title-text{
+    font-size: 22px;
+    font-weight: 600;
+}
+.note-card .main-wrapper span{
+    font-size: 13px;
+}
+.note-card .main-wrapper .desc-text{
+    font-size: 18px;
+    font-weight: 400;
+}
+.note-card .title-wrapper, .desc-wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.note-card .dates-wrapper{
+    background-color: #dbdbdb;
+    padding: 10px;
+    border-radius: 7px;
+}
+.note-card .dates-wrapper .created-date,.modified-date{
+    display: flex;
+    flex-direction: column;
+}
+.note-card .dates-wrapper span{
+    font-size: 13px;
+}
+.note-card .dates-wrapper .modified-text, .created-text{
+    font-size: 16px !important;
+    font-weight: 700;
+}
