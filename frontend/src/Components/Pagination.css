@@ -1,5 +1,9 @@
 .pagination-wrapper{
-    width: 100%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 55%;
 }
 .pagination-wrapper ul{
     display: flex;
@@ -8,10 +12,11 @@
     justify-content: center;
     padding: 25px;
     background-color: #cecece;
-    max-width: 200px;
     margin: auto;
     border-radius: 12px;
-    margin-bottom: 75px
+    margin-bottom: 75px;
+    width: 100%;
+    margin-left: -22px;
 }
 
 .pagination-wrapper .page-item{
