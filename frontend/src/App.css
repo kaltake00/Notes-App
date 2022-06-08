@@ -95,3 +95,65 @@
 .top-bar .export_all-btn:hover::after{
     opacity: 0.7;
 }
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 768px) {
+    .notes-wrapper{
+        width: 80% !important;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .top-bar h1{
+        text-align: center;
+    }
+    .top-bar input{
+        min-width: 70% !important;
+        margin-bottom: 30px;
+    }
+    .top-bar .buttons-wrapper{
+        flex-direction: column;
+    }
+    .top-bar .buttons-wrapper button{
+        margin-bottom: 15px !important;
+    }
+    .note-card{
+        flex-wrap:wrap;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+    .note-card .actions-wrapper{
+        flex-direction: row !important;
+    }
+    .note-card .actions-wrapper svg{
+        margin-right: 5px;
+    }
+    .note-card .main-wrapper{
+        order: 3;
+        width: 100%;
+        padding-left: 0 !important;
+    }
+    .note-card .dates-wrapper{
+        display: flex;
+    }
+    .note-card .dates-wrapper .created-date {
+        margin-right: 25px;
+    }
+
+    /* MODAL CARD */
+    .modal-card{
+        width: 75% !important;
+    }
+    .modal-card input{
+        min-width: 0 !important;
+    }
+}
+@media only screen and (max-width: 378px) {
+    .note-card .dates-wrapper{
+        margin-bottom: 12px;
+    }
+    .note-card .actions-wrapper svg{
+        font-size: 24px !important;
+        margin-right: 12px !important;
+    }
+}
