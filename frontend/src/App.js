@@ -106,12 +106,8 @@ function App() {
 					? currentNotes.map(note => <Note key={note.id} noteData={note} onDelete={deleteNote} onEdit={openEditModal} onHeartClicked={favoriteHandler} ></Note>)
 					: currentSearchedValues.map(note => <Note key={note.id} noteData={note} onDelete={deleteNote} onEdit={openEditModal} onHeartClicked={favoriteHandler} ></Note>)
 				}
-				{/* {searchTerm==="" && currentNotes.map(note => <Note key={note.id} noteData={note} onDelete={deleteNote} onEdit={openEditModal} onHeartClicked={favoriteHandler} ></Note>)}
-				{(searchTerm.length > 0) && currentSearchedNotes.map(note => <Note key={note.id} noteData={note} onDelete={deleteNote} onEdit={openEditModal} onHeartClicked={favoriteHandler} ></Note>)} */}
-
 			</div>
 			<div className='pagination-wrapper'>
-				{/* <Pagination notesPerPage={notesPerPage} totalNotes={notes.length} paginate={handlePagination} /> */}
 				{searchTerm === ""
 					? <Pagination notesPerPage={notesPerPage} totalNotes={notes.length} paginate={handlePagination} />
 					: <Pagination notesPerPage={notesPerPage} totalNotes={currentSearchedValues.length} paginate={handlePagination} />
